@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Владислав Голик](https://up.htmlacademy.ru/htmlcss/28/user/105020).
-* Наставник: `Неизвестно`.
+* Наставник: [Лиза Пак](https://htmlacademy.ru/profile/lizzy).
 
 ---
 
