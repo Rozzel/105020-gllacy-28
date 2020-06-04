@@ -41,46 +41,46 @@
         <a href="">Давайте оба!</a>
       </article>
 
-        <article>
-          <h3>Малинка даром!</h3>
-          <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку маринового варенья бесплатно.</p>
-          <a href="">Хочу варенье!</a>
-        </article>
-        <article>
-          <h3>Шоколадки даром!</h3>
-          <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно
-            бесплатно.</p>
-          <a href="">Хочу шоколадки!</a>
-        </article>
+      <article>
+        <h3>Малинка даром!</h3>
+        <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку маринового варенья бесплатно.</p>
+        <a href="">Хочу варенье!</a>
+      </article>
+      <article>
+        <h3>Шоколадки даром!</h3>
+        <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно
+          бесплатно.</p>
+        <a href="">Хочу шоколадки!</a>
+      </article>
 
-        <section>
-          <ul>
-            <li>
-              <span>ХИТ</span><img src="img\products\creamy-orange-jam.jpg" width="267" height="267"
-                alt="Мороженое: Сливочное с апельсиновым джемом и цитрусовой стружкой">
-              <p><a href="">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
-              <p>310 ₽<sub>/кг</sub></p>
-            </li>
-            <li>
-              <span>ХИТ</span><img src="img\products\coffee-chocolate.jpg" width="267" height="267"
-                alt="Мороженое: Сливочно-кофейное с кусочками шоколада">
-              <p><a href="">Сливочно-кофейное с кусочками шоколада</a></p>
-              <p>380 ₽<sub>/кг</sub></p>
-            </li>
-            <li>
-              <span>ХИТ</span><img src="img\products\strawberry-chocolate.jpg" width="267" height="267"
-                alt="Мороженое: Сливочно-клубничное с присыпкой из белого шоколада">
-              <p><a href="">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
-              <p>355 ₽<sub>/кг</sub></p>
-            </li>
-            <li>
-              <span>ХИТ</span><img src="img\products\creme-brulee-caramel.jpg" width="267" height="267"
-                alt="Мороженое: Сливочное крем-брюле с карамельной подливкой">
-              <p><a href="">Сливочное крем-брюле с карамельной подливкой</a></p>
-              <p>415 ₽<sub>/кг</sub></p>
-            </li>
-          </ul>
-        </section>
+      <section>
+        <ul>
+          <li>
+            <span>ХИТ</span><img src="img/products/creamy-orange-jam.jpg" width="267" height="267"
+              alt="Мороженое: Сливочное с апельсиновым джемом и цитрусовой стружкой">
+            <p><a href="">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
+            <p>310 ₽<sub>/кг</sub></p>
+          </li>
+          <li>
+            <span>ХИТ</span><img src="img/products/coffee-chocolate.jpg" width="267" height="267"
+              alt="Мороженое: Сливочно-кофейное с кусочками шоколада">
+            <p><a href="">Сливочно-кофейное с кусочками шоколада</a></p>
+            <p>380 ₽<sub>/кг</sub></p>
+          </li>
+          <li>
+            <span>ХИТ</span><img src="img/products/strawberry-chocolate.jpg" width="267" height="267"
+              alt="Мороженое: Сливочно-клубничное с присыпкой из белого шоколада">
+            <p><a href="">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
+            <p>355 ₽<sub>/кг</sub></p>
+          </li>
+          <li>
+            <span>ХИТ</span><img src="img/products/creme-brulee-caramel.jpg" width="267" height="267"
+              alt="Мороженое: Сливочное крем-брюле с карамельной подливкой">
+            <p><a href="">Сливочное крем-брюле с карамельной подливкой</a></p>
+            <p>415 ₽<sub>/кг</sub></p>
+          </li>
+        </ul>
+      </section>
 
     </div>
     <section>
@@ -145,6 +145,62 @@
       Сделано в HTML Academy © 2019</a>
   </footer>
 
+  <article class="visually-hidden">
+    <fieldset>
+      <legend>Форма авторизации</legend>
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <ul>
+          <li>
+            <label for="login-login">Логин</label>
+            <input type="email" name="login" placeholder="email@example.ru" id="login-login">
+          </li>
+          <li>
+            <label for="login-password">Пароль</label>
+            <input id="login-password" type="password" name="password" placeholder="••••••••">
+          </li>
+        </ul>
+        <button type="submit">Войти</button>
+        <ul>
+          <li><a href="">Забыли пароль?</a></li>
+          <li><a href="">Новая регистрация</a></li>
+        </ul>
+      </form>
+    </fieldset>
+  </article>
+
+  <article class="visually-hidden">
+    <fieldset>
+      <legend>Поиск по сайту</legend>
+      <form action="https://echo.htmlacademy.ru" method="GET">
+        <label for="search">Поиск</label>
+        <input type="text" name="search" id="search" placeholder="Поиск по сайту">
+      </form>
+    </fieldset>
+  </article>
+
+  <article class="visually-hidden">
+    <fieldset>
+      <legend>Форма обратной связи</legend>
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <h2>Мы обязательно Вам ответим!</h2>
+        <ul>
+          <li>
+            <label for="feedback-name">Имя Фамилия</label>
+            <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
+          </li>
+          <li>
+            <label for="feedback-email">Почта</label>
+            <input id="feedback-email" type="email" name="email" placeholder="email@example.com">
+          </li>
+          <li>
+            <label for="feedback-comment">Текст сообщения</label>
+            <textarea id="feedback-comment" name="comment">В свободной форме</textarea>
+          </li>
+        </ul>
+        <button type="submit">Отправить</button>
+      </form>
+    </fieldset>
+  </article>
 </body>
 
 </html>
