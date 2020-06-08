@@ -32,6 +32,73 @@
     </nav>
     <p>с 10 до 20, ежедневно</p>
     <p><a href="tel:+78124502525">8 812 450-25-25</a></p>
+
+    <div class="visually-hidden">
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <ul>
+          <li>
+            <label for="login-login">Логин</label>
+            <input type="email" name="login" placeholder="email@example.ru" id="login-login">
+          </li>
+          <li>
+            <label for="login-password">Пароль</label>
+            <input id="login-password" type="password" name="password" placeholder="••••••••">
+          </li>
+        </ul>
+        <button type="submit">Войти</button>
+        <ul>
+          <li><a href="">Забыли пароль?</a></li>
+          <li><a href="">Новая регистрация</a></li>
+        </ul>
+      </form>
+    </div>
+
+    <div class="visually-hidden">
+      <form action="https://echo.htmlacademy.ru" method="GET">
+        <label for="search">Поиск</label>
+        <input type="search" name="search" id="search" placeholder="Поиск по сайту">
+      </form>
+    </div>
+
+    <div class="visually-hidden">
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <ul>
+          <li>
+            <button type="button">Удалить</button>
+            <img src="img/products/creamy-orange-jam.jpg" width="33" height="33"
+              alt="Мороженое: Сливочное с апельсиновым джемом и цитрусовой стружкой">
+            <label>
+              <span>Пломбир с апельсиновым джемом</span>
+              <span>1,5 кг х </span>
+              <span>200 руб.</span>
+              <span>300 руб.</span>
+              <input type="hidden" name="item-1" value="Пломбир с апельсиновым джемом">
+              <input type="hidden" name="item-1" value="1.5 кг х 200 руб.">
+              <input type="hidden" name="item-1" value="сумма: 300 руб.">
+            </label>
+          </li>
+          <li>
+            <button type="button">Удалить</button>
+            <img src="img/products/strawberry-chocolate.jpg" width="33" height="33"
+              alt="Мороженое: Клубничный пломбир с присыпкой из белого шоколада">
+            <label>
+              <span>Клубничный пломбир с присыпкой из белого шоколада</span>
+              <span>1,5 кг х </span>
+              <span>300 руб.</span>
+              <span>450 руб.</span>
+              <input type="hidden" name="item-2" value="Клубничный пломбир с присыпкой из белого шоколада">
+              <input type="hidden" name="item-2" value="1.5 кг х 300 руб.">
+              <input type="hidden" name="item-2" value="сумма: 450 руб.">
+            </label>
+          </li>
+        </ul>
+
+        <p>Итого: 750 руб.</p>
+        <button type="submit">Оформить заказ</button>
+
+      </form>
+    </div>
+
   </header>
 
   <main>
@@ -156,7 +223,6 @@
   </main>
 
   <footer>
-
     <ul>
       <li><a href="">Фейсбук</a></li>
       <li><a href="">Вконтакте</a></li>
@@ -173,44 +239,6 @@
         alt="HTML Academy">
       Сделано в HTML Academy © 2019</a>
   </footer>
-
-  <article>
-    <fieldset>
-      <legend>Корзина</legend>
-      <form action="https://echo.htmlacademy.ru" method="POST">
-        <ul>
-          <li>
-            <button type="button">Удалить</button>
-            <img src="img/products/creamy-orange-jam.jpg" width="33" height="33"
-              alt="Мороженое: Сливочное с апельсиновым джемом и цитрусовой стружкой">
-            <label>
-              <span>Пломбир с апельсиновым джемом</span>
-              <span>1,5 кг х </span>
-              <span>200 руб.</span>
-              <span>300 руб.</span>
-              <input type="hidden" name="item-1" value="Пломбир с апельсиновым джемом">
-            </label>
-          </li>
-          <li>
-            <button type="button">Удалить</button>
-            <img src="img/products/strawberry-chocolate.jpg" width="33" height="33" alt="Мороженое: Клубничный пломбир с присыпкой из белого шоколада">
-            <label>
-              <span>Клубничный пломбир с присыпкой из белого шоколада</span>
-              <span>1,5 кг х </span>
-              <span>300 руб.</span>
-              <span>450 руб.</span>
-              <input type="hidden" name="item-2" value="Клубничный пломбир с присыпкой из белого шоколада">
-            </label>
-          </li>
-
-        </ul>
-        <hr>
-        <p>Итого: 750 руб.</p>
-        <button type="submit">Оформить заказ</button>
-
-      </form>
-    </fieldset>
-  </article>
 
 </body>
 

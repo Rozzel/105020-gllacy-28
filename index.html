@@ -32,6 +32,73 @@
     </nav>
     <p>с 10 до 20, ежедневно</p>
     <p><a href="tel:+78124502525">8 812 450-25-25</a></p>
+
+    <div class="visually-hidden">
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <ul>
+          <li>
+            <label for="login-login">Логин</label>
+            <input type="email" name="login" placeholder="email@example.ru" id="login-login">
+          </li>
+          <li>
+            <label for="login-password">Пароль</label>
+            <input id="login-password" type="password" name="password" placeholder="••••••••">
+          </li>
+        </ul>
+        <button type="submit">Войти</button>
+        <ul>
+          <li><a href="">Забыли пароль?</a></li>
+          <li><a href="">Новая регистрация</a></li>
+        </ul>
+      </form>
+    </div>
+
+    <div class="visually-hidden">
+      <form action="https://echo.htmlacademy.ru" method="GET">
+        <label for="search">Поиск</label>
+        <input type="search" name="search" id="search" placeholder="Поиск по сайту">
+      </form>
+    </div>
+
+    <div class="visually-hidden">
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <ul>
+          <li>
+            <button type="button">Удалить</button>
+            <img src="img/products/creamy-orange-jam.jpg" width="33" height="33"
+              alt="Мороженое: Сливочное с апельсиновым джемом и цитрусовой стружкой">
+            <label>
+              <span>Пломбир с апельсиновым джемом</span>
+              <span>1,5 кг х </span>
+              <span>200 руб.</span>
+              <span>300 руб.</span>
+              <input type="hidden" name="item-1" value="Пломбир с апельсиновым джемом">
+              <input type="hidden" name="item-1" value="1.5 кг х 200 руб.">
+              <input type="hidden" name="item-1" value="сумма: 300 руб.">
+            </label>
+          </li>
+          <li>
+            <button type="button">Удалить</button>
+            <img src="img/products/strawberry-chocolate.jpg" width="33" height="33"
+              alt="Мороженое: Клубничный пломбир с присыпкой из белого шоколада">
+            <label>
+              <span>Клубничный пломбир с присыпкой из белого шоколада</span>
+              <span>1,5 кг х </span>
+              <span>300 руб.</span>
+              <span>450 руб.</span>
+              <input type="hidden" name="item-2" value="Клубничный пломбир с присыпкой из белого шоколада">
+              <input type="hidden" name="item-2" value="1.5 кг х 300 руб.">
+              <input type="hidden" name="item-2" value="сумма: 450 руб.">
+            </label>
+          </li>
+        </ul>
+
+        <p>Итого: 750 руб.</p>
+        <button type="submit">Оформить заказ</button>
+
+      </form>
+    </div>
+
   </header>
 
   <main>
@@ -124,6 +191,29 @@
         <a href="tel:+78124502525">8 812 450-25-25</a>
         <button type="button">Форма обратной связи</button>
       </div>
+
+      <div class="visually-hidden">
+        <button type="button">Закрыть</button>
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <h2>Мы обязательно Вам ответим!</h2>
+          <ul>
+            <li>
+              <label for="feedback-name">Имя Фамилия</label>
+              <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
+            </li>
+            <li>
+              <label for="feedback-email">Почта</label>
+              <input id="feedback-email" type="email" name="email" placeholder="email@example.com">
+            </li>
+            <li>
+              <label for="feedback-comment">Текст сообщения</label>
+              <textarea id="feedback-comment" name="comment">В свободной форме</textarea>
+            </li>
+          </ul>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+
     </section>
   </main>
 
@@ -145,62 +235,6 @@
       Сделано в HTML Academy © 2019</a>
   </footer>
 
-  <article class="visually-hidden">
-    <fieldset>
-      <legend>Форма авторизации</legend>
-      <form action="https://echo.htmlacademy.ru" method="POST">
-        <ul>
-          <li>
-            <label for="login-login">Логин</label>
-            <input type="email" name="login" placeholder="email@example.ru" id="login-login">
-          </li>
-          <li>
-            <label for="login-password">Пароль</label>
-            <input id="login-password" type="password" name="password" placeholder="••••••••">
-          </li>
-        </ul>
-        <button type="submit">Войти</button>
-        <ul>
-          <li><a href="">Забыли пароль?</a></li>
-          <li><a href="">Новая регистрация</a></li>
-        </ul>
-      </form>
-    </fieldset>
-  </article>
-
-  <article class="visually-hidden">
-    <fieldset>
-      <legend>Поиск по сайту</legend>
-      <form action="https://echo.htmlacademy.ru" method="GET">
-        <label for="search">Поиск</label>
-        <input type="text" name="search" id="search" placeholder="Поиск по сайту">
-      </form>
-    </fieldset>
-  </article>
-
-  <article class="visually-hidden">
-    <fieldset>
-      <legend>Форма обратной связи</legend>
-      <form action="https://echo.htmlacademy.ru" method="POST">
-        <h2>Мы обязательно Вам ответим!</h2>
-        <ul>
-          <li>
-            <label for="feedback-name">Имя Фамилия</label>
-            <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
-          </li>
-          <li>
-            <label for="feedback-email">Почта</label>
-            <input id="feedback-email" type="email" name="email" placeholder="email@example.com">
-          </li>
-          <li>
-            <label for="feedback-comment">Текст сообщения</label>
-            <textarea id="feedback-comment" name="comment">В свободной форме</textarea>
-          </li>
-        </ul>
-        <button type="submit">Отправить</button>
-      </form>
-    </fieldset>
-  </article>
 </body>
 
 </html>
