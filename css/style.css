@@ -1,7 +1,19 @@
 /* Variables */
 
 :root {
-    --basic-black: #000000;
+    --basic-black: #323232;
+    --basic-white: #FFFFFF;
+    --basic-extra-light: #323232;
+
+    --basic-background-1: #849D8F;
+    --basic-background-2: #8996A6;
+    --basic-background-3: #9D8B84;
+
+    --basic-background-mail: #F8F7F4;
+    --basic-background-map: #FEFEFE;
+    --basic-background-wafer: #f0e5d0;
+    --basic-background-raspberry: #2c0005;
+    --basic-background-chocolate: #291307;
 
 }
 
@@ -9,7 +21,11 @@
 
 body {
     font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
     color: var(--basic-black);
+    font-weight: normal;
+    font-style: normal;
 }
 
 .visually-hidden {
