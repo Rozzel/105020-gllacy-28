@@ -13,5 +13,5 @@ body {
 }
 
 .visually-hidden {
-    visibility: visible;
+    visibility: none;
 }
